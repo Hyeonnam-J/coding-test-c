@@ -19,6 +19,9 @@ brown	yellow	return
 24		24		[8, 6]
 */
 
+// 잠깐,
+// yellow의 가로와 세로의 차가 최소여야 한다는 조건이 없는데,
+ 
 #include <iostream>
 #include <string>
 #include <vector>
@@ -26,10 +29,6 @@ brown	yellow	return
 using namespace std;
 
 vector<int> solution(int brown, int yellow) {
-	size_t yellow_y = 1;
-	
-	std::cout << yellow_y << std::endl;
-	
     vector<int> answer;
     answer.push_back(1);
 	answer.push_back(2);
