@@ -26,6 +26,10 @@ brown	yellow	return
 using namespace std;
 
 vector<int> solution(int brown, int yellow) {
+	size_t yellow_y = 1;
+	
+	std::cout << yellow_y << std::endl;
+	
     vector<int> answer;
     answer.push_back(1);
 	answer.push_back(2);
